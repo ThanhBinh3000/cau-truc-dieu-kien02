@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>giải phương trình bậc 1</title>
+</head>
+<body>
+<script>
+  let c;
+  let tatol=parseInt(prompt('nhập số'));
+  let num=parseInt(prompt('nhập b'));
+  if (tatol===0&&num===0){
+    alert('phương trình vô nghiệm');
+  }else if (tatol===0&&num!==0){
+    alert('phương trình vô ngiệm');
+  }else if (tatol!==0&&num===0){
+    alert('phương trình có ngiệm duy nhất x=0')
+  }else if (tatol!==0){
+    c=-tatol/num;
+    alert(c)
+  }
+
+</script>
+</body>
+</html>

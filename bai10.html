@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phương trình tính giá điện</title>
+</head>
+<body>
+<script>
+           let b=parseInt(prompt('công suất tiêu thụ'));
+           let c=parseInt(prompt('thời gian sử dụng tính tho giờ'));
+           let a=b*c
+           if (0<a<=50){
+               alert('1678(đồng/kwh)');
+           }else if (51<=a<100){
+               alert('1734(đồng/kwh)');
+           }else if (101<=a<200) {
+               alert('2014(đồng/kwh)');
+           } else if (201<=a<300) {
+               alert('2536(đồng/kwh)');
+           }else if (301<=a<400) {
+               alert('2834(đồng/kwh)');
+           }else if (a>400) {
+               alert('2927(đồng/kwh)');
+           }
+</script>
+</body>
+</html>
